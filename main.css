@@ -1,0 +1,89 @@
+* { 
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.box1 {
+    height: 20rem;
+    width: 20rem;
+    background-color: lightgreen;
+    margin-bottom: 1rem;
+    display: grid;
+    grid-template-columns: 50% 50%; 
+}
+
+.box1 > div {
+    border: solid darkgreen 7px;
+}
+
+.box2 {
+    height: 20rem;
+    width: 20rem;
+    background-color: lightgreen;
+    margin-bottom: 1rem;
+    display: grid;
+    grid-template-columns: 20% auto;
+}
+
+.box2 > div {
+    border: solid darkgreen 7px;
+}
+
+.box3 {
+    height: 20rem;
+    width: 20rem;
+    background-color: lightgreen;
+    margin-bottom: 1rem;
+    display: grid;
+    grid-template-columns: 20% auto auto;
+}
+
+.box3 > div {
+    border: solid darkgreen 7px;
+}
+
+.box4 {
+    height: 20rem;
+    width: 20rem;
+    background-color: lightgreen;
+    margin-bottom: 1rem;
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.box4 > div {
+    border: solid darkgreen 7px;
+}
+
+.box5 {
+    height: 20rem;
+    width: 20rem;
+    background-color: lightgreen;
+    margin-bottom: 1rem;
+    display: grid;
+    grid-template-rows: 20% auto;
+}
+
+.box5 > div {
+    border: solid darkgreen 7px;
+}
+
+.box6 {
+    height: 20rem;
+    width: 20rem;
+    background-color: lightgreen;
+    display: grid;
+    grid-template-rows: 20% auto auto;
+}
+
+.box6 > div {
+    border: solid darkgreen 7px;
+}
